@@ -167,7 +167,7 @@ const Home: React.FC = () => {
               <img src={post.url_imagem ?? require("../../assets/img/friend.jpg")} alt="Foto de quem Postou" />
               <p>{post.user}</p>
               <p className='PostTimeText'>
-                <span><ClockIcon />12 minutos atrás em</span> Paisagens Exuberantes
+                <span><ClockIcon />{new Date(post.post_date).toLocaleString()}</span> Paisagens Exuberantes
               </p>
             </div>
           </div>
