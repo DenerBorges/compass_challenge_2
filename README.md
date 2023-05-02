@@ -1,46 +1,66 @@
-# Getting Started with Create React App
+<h1 align="center"> Compass Project 2 </h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+<p align="justify">
+The project features a sign in page, a sign up page and home page with API for the frontend to consume and field validations.
+</p>
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- [x] Sign In
+- [x] Sign Up
+- [x] Home
+- [x] API - Get
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Getting Started
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<p align="justify">
+Before starting, you will need to have the following tools installed on your machine:
 
-### `npm test`
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
+Also it's nice to have an editor to work with the code like [VSCode](https://code.visualstudio.com/).
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+### Starting React APP
+```bash
+# Clone this repository
+$ git clone https://github.com/DenerBorges/compass_challenge_1.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Access project folder in terminal/cmd
+$ cd compass_challenge_1
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Install the dependencies
+$ npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Initialize the project
+$ npm start
+```
+### Starting Express Server
+```bash
+# Access project folder in terminal/cmd
+$ cd compass_challenge_1
 
-### `npm run eject`
+# Initialize the server
+$ npm run dev
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Technologies
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p>
+The following tools were used in building the project:
+</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- [Node.js](https://nodejs.org/en/)
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Author
 
-## Learn More
+<p align="justify">
+Dener Kisner Borges
+</p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dener-borges-5836ab219)
