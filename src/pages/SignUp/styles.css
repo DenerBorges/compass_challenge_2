@@ -1,0 +1,163 @@
+.Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    height: 100vh;
+    width: 100%;
+}
+
+.Content {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10vw;
+    width: 100%;
+    max-width: 450px;
+    border-radius: 5px;
+}
+
+.ContentForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+}
+
+.ImageContent {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+}
+
+img {
+    width: 50%;
+    height: 100%;
+}
+
+strong {
+    cursor: pointer;
+}
+
+strong a {
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+.ContainerIcon {
+    position: relative;
+    width: 100%;
+}
+
+.ContainerIcon svg {
+    position: absolute;
+        top: 30%;
+        right: 5%;
+    color: white;
+    width: 25px;
+    height: 25px;
+}
+
+.Input {
+    outline: none;
+    padding: 19px 20px;
+    width: 100%;
+    border-radius: 46px;
+    font-size: 16px;
+    background: none;
+    font-family: 'Poppins', sans-serif;
+    border: #f5f5f5 2px solid;
+    color: #f5f5f5;
+}
+
+.InputError {
+    outline: none;
+    padding: 19px 20px;
+    width: 100%;
+    border-radius: 46px;
+    font-size: 16px;
+    background: none;
+    border: #E9B425 2px solid;
+    color: #f5f5f5;
+}
+
+.Input::placeholder, .InputError::placeholder {
+    color: #f5f5f5;
+}
+
+.LabelContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 150px;
+    gap: 10px;
+}
+
+.LabelHello {
+    font-size: 64px;
+    font-weight: 500;
+    color: #f5f5f5;
+}
+
+.Label {
+    font-size: 16px;
+    color: #f5f5f5;
+    padding: 0px 0px 50px;
+}
+
+.LabelRegister {
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.LabelSignIn {
+    font-size: 16px;
+    color: #f5f5f5;
+}
+
+.LabelError {
+    font-size: 16px;
+    text-align: center;
+    width: 60%;
+    color: #E9B425;
+}
+
+.LabelCheck {
+    font-size: 16px;
+    text-align: center;
+    width: 60%;
+    color: #00EE00;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding: 19px 24px;
+    outline: none;
+    border: 1px solid #FE2E05;
+    border-radius: 46px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    background: linear-gradient(180deg, #AD2D14 0%, #F42E07 100%);
+    color: #f5f5f5;
+    font-weight: 600;
+    font-size: 16px;
+    max-width: 450px;
+}
+
+@media only screen and (max-width: 820px) {
+    .Content {
+        padding: 0;
+        margin: 0 50% 0 50%;
+    }
+    
+    .ImageContent img {
+        display: none;
+    }
+}
