@@ -27,10 +27,10 @@ Also it's nice to have an editor to work with the code like [VSCode](https://cod
 ### Starting React APP
 ```bash
 # Clone this repository
-$ git clone https://github.com/DenerBorges/compass_challenge_1.git
+$ git clone https://github.com/DenerBorges/compass_challenge_2.git
 
 # Access project folder in terminal/cmd
-$ cd compass_challenge_1
+$ cd compass_challenge_2
 
 # Install the dependencies
 $ npm install
@@ -41,7 +41,7 @@ $ npm start
 ### Starting Express Server
 ```bash
 # Access project folder in terminal/cmd
-$ cd compass_challenge_1
+$ cd compass_challenge_2
 
 # Initialize the server
 $ npm run dev
