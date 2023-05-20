@@ -167,7 +167,7 @@ const Home: React.FC = () => {
               <img src={post.url_imagem ?? require("../../assets/img/friend.jpg")} alt="Foto de quem Postou" />
               <p>{post.user}</p>
               <p className='PostTimeText'>
-                <span><ClockIcon />{new Date(post.post_date).toLocaleString()}</span> Paisagens Exuberantes
+                <span><ClockIcon />{new Date(post.post_date).toLocaleString()} em</span> Paisagens Exuberantes
               </p>
             </div>
           </div>
@@ -210,7 +210,7 @@ const Home: React.FC = () => {
             <button type='submit' className='SendPost'>Postar</button>
           </form>
           <div className='PostComments'>
-            <p>Todos os comentários</p>
+            <p className='LabelAllComments'>Todos os comentários</p>
             {post.comments && post.comments.map(
               (comment: commentType, i) => { 
                 return <div className='PostCommentsPerson' key={comment.comment}>
@@ -240,7 +240,7 @@ const Home: React.FC = () => {
                   (user, i) =>
                 <li className='FriendsText' key={i}>
                   <img src={require("../../assets/img/friend.jpg")} alt="Foto de Amigo" />
-                  {user.name}
+                  <p>{user.name}</p>
                 </li>
                 )}
               </ul>

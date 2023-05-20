@@ -181,7 +181,7 @@ body {
     margin: 2% 3% 2% 3%;
     gap: 16px;
     width: 55vw;
-    height: 112vh;
+    height: auto;
     background: #1E1F23;
     border: 2px solid #2E2F36;
     border-radius: 16px;
@@ -212,6 +212,8 @@ body {
 
 .PostTimeText {
     font-size: 14px;
+    position: relative;
+        right: 2%;
 }
 
 .PostTimeText span {
@@ -221,6 +223,8 @@ body {
 .PostTimeText svg {
     width: 1.6vw;
     height: 1.6vh;
+    position: relative;
+        top: 2px;
 }
 
 .PostImage {
@@ -375,7 +379,7 @@ body {
 .PostCommentsPerson img {
     position: absolute;
         top: 10%;
-        left: 2%;
+        left: 3%;
     width: 1.8vw;
     height: 3.5vh;
     border-radius: 100%;
@@ -393,11 +397,15 @@ body {
     color: #fff;
 }
 
+.LabelAllComments {
+    margin: 1% 0% 2% 0;
+}
+
 .PostComments hr {
     display: flex;
     align-self: center;
     margin: 2%;
-    width: 52vw;
+    width: 51.5vw;
     border-color: #27282F;
     margin-left: 7%;
 }
@@ -427,7 +435,8 @@ body {
     background: #1E1F23;
     border: 2px solid #2E2F36;
     border-radius: 16px;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .FriendsContent::-webkit-scrollbar {
@@ -454,6 +463,13 @@ body {
     width: 35px;
     height: 35px;
     border-radius: 100%;
+}
+
+.FriendsList p {
+    white-space: nowrap;
+    width: 76%;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .FriendsText {
@@ -486,8 +502,23 @@ body {
         padding: 0;
         margin: 0;
     }
-    .HomeContent {
-        margin-left: 0;
+    .HomeContent{
+        margin: 0;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .SendContent {
+        margin: 2%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .PostContent {
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        margin: 2%;
     }
     .LogoContent {
         display: none;
